@@ -1,0 +1,296 @@
+/*
+    GENERAL
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+
+/*
+    NAVIGATION MENU
+*/
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-picture {
+    max-height: 65px;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+}
+ul {
+    list-style: none;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2em 3.94em; 
+}
+
+
+
+.btn {
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.83em;
+    text-transform: uppercase;
+    margin-left: 1.3em;
+    border-style: none;
+}
+
+.hidden-header {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/*
+    MAIN LANDING
+*/
+.white-btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin: 0;
+    min-width: 16.5em;
+}
+.first-screen {
+    background: url(../images/main-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-title {
+    font-size: 63.07px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+}
+.main-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 1em 0px;
+}
+
+.first-screen-container {
+    width: 50%;
+    margin-left: 5.83em;
+}
+
+.second-screen {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.description-block {
+
+    display: flex;
+    background-color: #F1FDFF;
+    align-items: center;
+    padding: 40px 62px;
+    margin: 3.125em;
+}
+
+.description-image {
+    max-width: 585px;
+    max-height: 424px;
+}
+
+.flex-wrapper {
+    margin-right: 62px;
+    text-align: justify;
+}
+
+.text-block {
+    
+    margin: 12.1em 8.88em;
+    text-align: center;
+
+}
+
+.section-title {
+    font-size: 3.75em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sub-text {
+    font-size: 1.6875em;
+    font-weight: 400;
+    margin: 0.3em 0em;
+}
+
+.sub-text-2 {
+    font-size: 1.25em;
+    color: #73A6B1;
+    font-weight: 400;
+    margin: 0.3em 0em;
+}
+
+.description {
+    font-size: 1em;
+}
+
+.description-header {
+    font-size: 2.875em;
+}
+
+
+.btn-find-more {
+    max-width: 16.375em;
+    text-align: center;
+    align-items: center;
+    margin: 1em 0em;
+}
+
+
+.support-our-work-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-mission-description {
+
+    z-index: 1;
+    margin: 0 auto;
+}
+.our-mission-block {
+    margin: 221px 86px;
+}
+
+.our-mission-block {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 19.5em;
+    background-color: #F1FDFF;
+}
+
+.our-goal-text {
+    margin: 0.3em 0em;
+}
+
+/*
+    FOOTER
+*/
+
+.score-frame {
+    display: flex;
+    flex-direction: row;
+    font-size: 3.75em;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.second-num {
+    border-left: 3px solid #7AE5FD;
+    border-right: 3px solid #7AE5FD;
+    margin: 0 0.3em;
+    padding: 0 0.3em;
+}
+
+.contacts-list {
+    text-decoration: none;
+    text-align: left;
+}
+
+
+
+.contacts-list-2 {
+    padding-top: 3.5625em; 
+}
+
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contacts-block h2 {
+    margin: 0 2.15em;
+}
+
+.yellow-input {
+    border: 1px solid #F9FADF;
+    background-color:#F9FADF;
+    border-radius: 8.8125em;
+    min-width: 31.16em;
+    min-height: 4.125em;
+    margin: 1em 0px;
+    padding-left: 2.68em;
+
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #F9FADF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mail-form {
+
+    max-height: 32.06em;
+    margin: 61px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.mail-form img {
+    margin: 2.15em;
+    margin-left: -3em;
+}
+
+
+
+.user-form {
+    margin: auto 0px;
+}
+
+.btn-contacts {
+    min-width: 33.84em;
+    min-height: 4.125em;
+    margin: 0;
+}
+
+.btn-find-more {
+    margin-bottom: 10em;
+    min-width: 16.375em; 
+}
